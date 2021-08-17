@@ -1,4 +1,3 @@
-import React from 'react';
 import Profile from './components/profile/Profile';
 import user from './components/profile/user.json';
 

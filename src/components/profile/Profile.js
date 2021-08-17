@@ -1,4 +1,12 @@
-export default function Profile({ name, tag, location, avatar, stats }) {
+import defaultImage from '../../images/default.png';
+
+export default function Profile({
+  name,
+  tag,
+  location,
+  avatar = defaultImage,
+  stats,
+}) {
   return (
     <div className="profile">
       <div className="description">
