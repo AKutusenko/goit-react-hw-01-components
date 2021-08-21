@@ -1,24 +1,27 @@
 import PropTypes from 'prop-types';
+import Container from '../container/Container';
 
 export default function Statistics({ title, stats }) {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
-      <ul className="stat-list">
-        {stats.map(statsItem => {
-          return (
-            <li
-              className="item"
-              key={statsItem.id}
-              style={{ backgroundColor: getColor() }}
-            >
-              <span className="label">{statsItem.label}</span>
-              <span className="percentage">{statsItem.percentage}%</span>
-            </li>
-          );
-        })}
-      </ul>
-    </section>
+    <Container>
+      <section className="statistics">
+        {title && <h2 className="title">{title}</h2>}
+        <ul className="stat-list">
+          {stats.map(statsItem => {
+            return (
+              <li
+                className="item"
+                key={statsItem.id}
+                style={{ backgroundColor: getColor() }}
+              >
+                <span className="label">{statsItem.label}</span>
+                <span className="percentage">{statsItem.percentage}%</span>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    </Container>
   );
 }
 
