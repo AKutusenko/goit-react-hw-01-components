@@ -1,6 +1,7 @@
 .transactionHistory {
   min-width: 320px;
   border: 1px solid grey;
+  border-radius: 5px;
   padding: 5px;
   text-align: center;
   background-color: violet;

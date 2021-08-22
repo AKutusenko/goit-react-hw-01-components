@@ -59,13 +59,20 @@
   border-top: 1px solid teal;
   width: 100%;
   height: 100%;
+  padding: 5px;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 1px solid teal;
 }
 
 .label {
   font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
 }
 
 .quantity {
-  font-size: 13px;
+  font-size: 11px;
   color: rgb(105, 104, 102);
 }
