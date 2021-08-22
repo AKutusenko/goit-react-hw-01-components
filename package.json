@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "gh-pages": "^3.2.3",
+    "import-sort-style-react": "^5.1.0",
     "modern-normalize": "^1.1.0",
     "prop-types": "^15.7.2",
     "prototypes": "^3.0.3",
