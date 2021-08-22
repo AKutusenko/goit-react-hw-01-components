@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
 import Container from '../container/Container';
+import s from './Statistics.module.css';
 
 export default function Statistics({ title, stats }) {
   return (
     <Container>
-      <section className="statistics">
+      <section className={s.statistics}>
         {title && <h2 className="title">{title}</h2>}
-        <ul className="stat-list">
+        <ul className={s.statList}>
           {stats.map(statsItem => {
             return (
               <li
-                className="item"
+                className={s.statsListItem}
                 key={statsItem.id}
                 style={{ backgroundColor: getColor() }}
               >

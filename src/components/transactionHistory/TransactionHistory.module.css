@@ -1,0 +1,14 @@
+.transactionHistory {
+  min-width: 320px;
+  border: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+  background-color: violet;
+}
+
+.tr:nth-child(odd) {
+  background-color: rgb(166, 216, 216);
+}
+.td {
+  font-size: 13px;
+}

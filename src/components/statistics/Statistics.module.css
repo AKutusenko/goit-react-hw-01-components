@@ -1,0 +1,17 @@
+.statList {
+  display: flex;
+}
+
+.statsListItem {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.statistics {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: violet;
+}
